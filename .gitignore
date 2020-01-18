@@ -1,0 +1,7 @@
+git status
+
+# ignores files:
+
+js/three.js-dev/**
+js/p5/**
+

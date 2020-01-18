@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title> Random Nucleotide Generator
+		</title>
+
+	</head>
+
+<!-- <p id="nucleotide_seq" > test </p> -->
+
+	<body>
+		<script>
+			var nucleotides = ["A","C","T","G"];
+			var i = 1;
+			var randNcltd = Math.round(Math.abs(getRandom(0,4)));
+
+
+		
+function getRandom(min, max) {
+ 	return Math.random() * (max - min) -1 ;
+}
+
+
+console.log(randNcltd);
+
+
+ while ( i < 100){
+ 	
+ 	document.write(nucleotides[Math.round(Math.abs(getRandom(0,4)))]);
+ //	document.write("<br>");
+ 	i++;
+ } 
+
+
+
+		</script>
+
+	</body>
+
+</html>

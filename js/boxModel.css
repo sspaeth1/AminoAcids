@@ -1,0 +1,32 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+
+p {
+	width: 33%;
+	padding:10px;
+	margin: 10px;
+	border: solid 1px #555555;
+ 	
+}
+
+tr, td{
+	
+	width: 30px;
+	height: 30px;
+		border-top: 0px solid #555555;
+		border-bottom: 1px solid black;
+		border-left: 1px solid #555555;
+		border-right: 0px solid black;
+		
+
+}
+
+
+
+table,  .tictacto {
+	margin: auto;
+
+	width: 30%;
