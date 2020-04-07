@@ -1,0 +1,1 @@
+# Intro to Nucleic Acids sequenses. Randomly generate a sequence. 
