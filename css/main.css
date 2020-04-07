@@ -4,16 +4,12 @@
 	font-family: sans-serif;
 	font: #ff2f44 ;
 	display: block;
-
-
-
 }
 
 .color1 {
 	font-family: sans-serif;
 	font: #ff2f44 ;
-
-	} 
+} 
 
 .color2 {
 	font: #2fffdc;
@@ -36,20 +32,21 @@
 }
 
 .makeSeqBtn{
-	background-color: #454340;
-	color: #000;
+	background-color: #ff2f44;
+	color: #fff;
+	font-size: 1.5rem;
 	height: 80px;
-	width: 120px;
-	border: 0px none;
-	padding: 100px;
-
+	width: 220px;
+	border: 2px dotted #35e864;
+	border-radius: 5px;
+	padding: 5px 10px;;
+	margin:50px 25px;
 }
 
 .makeSeqBtn:hover{
-	background-color: #2fffdc;
+	background-color: #35e864;
 	color: #000;
 	border: 0px none;
-	
 }
 
 
@@ -59,18 +56,15 @@
 
 }
 
-
-
 .row1 {
    background-color: #fff;
    height: 200px;
 }
 
-
-
 .row2 {
    background-color: #333;
    height: 400px;
+   padding: 5%;
 }
 
 .row2 img, .row3 img{
@@ -80,5 +74,20 @@
 
 .row3 {
    background-color: #666;
-   height: 200px;
+}
+
+.left{
+	float:left;
+}
+
+.text{
+	width:80%;
+	border: 2px solid #222;
+	padding: 20px;
+	margin:5%;
+	background-color: #aaa;
+}
+
+.padbtm{
+	padding-bottom:20px;
 }
