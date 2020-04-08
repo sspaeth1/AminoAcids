@@ -16,18 +16,33 @@ function getRandom(min, max) {
 
 
 function makeSeq(len){
-	var seqAry=[];
-
+	len = len();
+	seqAry=[];
 	while ( i < len){
-		var seq = nucleotides[Math.round(Math.abs(getRandom(0,4)))];		
+		const seq = nucleotides[Math.round(Math.abs(getRandom(0,4)))];		
 		seqAry.push(seq);
 		i++;
+	//	document.write("<br>");
 	};
 	document.getElementById("seq").innerHTML = seqAry;
-	console.log(seqAry);
-	i = 0;
 };
 
+
+
+function buttontoggle() {
+	var x = document.getElementById("seq");
+	if (x.innerHTML !== "") {
+		console.log('makeseq function ' + makeSeq() )
+		makeSeq() 
+	} else {
+		makeSeq() 
+		console.log('empty array')
+		
+	}
+  }
+
+
+console.log(randNcltd);
 
 
 

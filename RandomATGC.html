@@ -4,11 +4,9 @@
 		<link rel="stylesheet" type="text/css" href="./css/main.css">
 		<link rel="stylesheet" type="text/css" href="./css/nav.css">
 		<script type="text/javascript" src="./js/makeSeq.js"></script>
-
+		<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 
 	</head>
-
-<!-- <p id="nucleotide_seq" > test </p> -->
 
 	<body>
 
@@ -17,7 +15,7 @@
     <div class="nav">
 		<span class=""><img src="imgs/logo.png" class="logo" alt="logo" ></span>
       <ul>
-        <li class="Nucleotides"><a href="#"> Generate Nucleotides</a></li>
+        <!-- <li class="Nucleotides"><a href="#"> Generate Nucleotides</a></li> -->
         <li class="ChemStuct"><a class="active" href="#">Chem Structure</a></li>
         <li class="Biochromatic"><a href="#">Biochromatic</a></li>
         <li class="contact"><a href="#">Contact</a></li>
@@ -27,10 +25,12 @@
 
 
 <div class= "row1">
-	<button type="button" class="makeSeqBtn" onClick="makeSeq()">Create a sequence </button>
-	<span id="seq"> </span>
-	<span class="left"><input type="text" id="len"></input></span> 
-	<span><button onclick="test()">Submit</button></span>
+	<div> 
+		<button type="button" id="makeSeqBtn" onClick="makeSeq(55)">Create a sequence </button>
+		<span id="seq"></span>
+	</div>
+	<!-- <div class="left"><input type="text"></input></div> 
+	<div><button onclick="len()">Nucleotide Length </button></div> -->
 </div>
 
 

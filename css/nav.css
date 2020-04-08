@@ -14,7 +14,7 @@ body {
   text-align: center;
   padding: 0;
   margin: 0;
-  height: 130px;
+  height: 159px;
   border-bottom: 3px solid #de5a64;
 
 
@@ -54,7 +54,12 @@ body {
     left: 10px;
     height:120px;    
   }
+
+  .nav ul{
+    height: 130px;
+  }
   
+
   .nav li {
     border-bottom: none;
     height: 50px;
